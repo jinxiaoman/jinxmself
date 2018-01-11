@@ -1,0 +1,19 @@
+expected space or tab comment
+use let or const instead
+Unexpected tab character
+split var declarations into multiple statements
+is already defined (no-redeclare)
+d is assiqned a value but never used (no-unused-vars)
+identifier a has alredy been declared
+must not be empty
+propertycus
+static
+Element
+console
+Sources
+Network
+performance
+memory
+Appliction
+security
+Audits

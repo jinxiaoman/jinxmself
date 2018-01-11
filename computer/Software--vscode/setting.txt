@@ -1,0 +1,85 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontSize": 15,
+    "editor.tabSize": 2,
+    "editor.matchBrackets": false,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": true,
+    "editor.rulers": [80, 100],
+    // all, bundary, none
+    "editor.renderWhitespace": "boundary",
+
+    "files.autoSave": "onWindowChange",
+    "files.defaultLanguage": "zh-cn",
+
+    "sync.gist": "b2fe75750908aa62e292a8dbac189983",
+    "sync.lastUpload": "2018-01-11T03:04:03.620Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "2017-06-04T16:56:28.648Z",
+    "sync.forceDownload": false,
+    "sync.anonymousGist": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "window.zoomLevel": 0,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.6,
+
+    "markdown.preview.fontSize": 15,
+    "extensions.autoUpdate": true,
+
+    "terminal.external.osxExec": "/bin/zsh",
+  
+
+    "projectManager.vscode.baseFolders": [
+        "/Users/jinxm/work/"
+    ],
+
+    "fileheader.Author": "jinxm",
+    "fileheader.tpl": "#!/usr/bin/env python \r\n# -*- coding:utf-8 -*- \r\n'''\r\n * @Author: {author} \r\n * @Date: {createTime} \r\n * @Last Modified by:   {lastModifiedBy} \r\n * @Last Modified time: {updateTime} \r\n * @Desc: \r\n'''\r\n",
+    "fileheader.LastModifiedBy": "jinxm",
+    "dateTime.customFormat": "YYYY-MM-DD HH:mm",
+
+    "phpserver.browser": "chrome",
+    "sync.quietSync": false,
+
+    "typescript.validate.enable": false,
+    "javascript.validate.enable": false,
+    "workbench.iconTheme": "vscode-icons",
+    "sync.askGistName": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "sublimeTextKeymap.promptV3Features": true,
+    "explorer.confirmDragAndDrop": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    
+        "eslint.autoFixOnSave": true,
+        "eslint.validate": [
+          "javascript",
+          "javascriptreact",
+          {
+            "language": "html",
+            "autoFix": true
+          },
+          {
+            "language": "vue",
+            "autoFix": true
+          }
+        ],
+        "eslint.options": {
+          "configFile": "/Users/jinxm/work/.eslintrc.js",
+          "plugins": ["html"]
+        },
+        "workbench.colorTheme": "Monokai Dimmed"
+      }
+       
+      
