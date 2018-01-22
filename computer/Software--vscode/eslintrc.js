@@ -1,12 +1,12 @@
 module.exports = {
-    "env": {
+    'env': {
         browser: true,
         node: true,
         commonjs: true,
         es6: true
     },
-    "extends": "eslint:recommended",
-    "rules": {
+    'extends': 'eslint:recommended',
+    'rules': {
         //
         //
         // 可能的错误
