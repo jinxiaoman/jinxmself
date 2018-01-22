@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <input type="number" placeholder="第一个数字" id="v11">
+  <br>
+  +
+  <br>
+  <input type="number" placeholder="第二个" id="v12"> 
+  <br>
+  =
+  <br>
+  <input type="number" placeholder="总和" id="v13">
+  <!-- // + zhuanhuan number -->
+  <input type="button" value="按钮" onclick="v13.value = +v11.value + (+v12.value); v13.style.color = 'red'">
+</body>
+</html>

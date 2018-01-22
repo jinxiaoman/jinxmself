@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <input type="number" id="v11" placeholder="first number">
+  <input type="number" id="v12" placeholder="second number">
+  <input type="number" id="v13" placeholder="maxNumber">
+  <input type="button" value="maxnumber" onclick="maxNumber()">
+  <hr>
+  <input type="number" id="grade" placeholder="input your grade">
+  <br>
+  <input type="text" id="gradeResult" placeholder="grade ">
+  <input type="button" value="确定" onclick="query()">
+  <script>
+  function test() {
+      let a = 10;
+      let b = 20;
+      if (a > b) {
+          console.log(`maxNumber is a`);
+      } else {
+          console.log('maxNumber is b');
+      }
+  }
+  test();
+  function maxNumber() {
+      let numberValue1 = document.getElementById('v11');
+      let numberValue2 = document.getElementById('v12');
+      let result = document.getElementById('v13');
+      result.value = Number(numberValue1.value) > Number(numberValue2.value) && numberValue1.value || numberValue2.value;
+      // if (Number(numberValue1.value) > Number(numberValue2)) {
+      //     result.value = numberValue1.value;
+      // } else {
+      //     result.value = numberValue2.value;
+      // }
+      console.log('------------------------------------');
+      console.log('one');
+      console.log('------------------------------------');
+  }
+  function query() {
+      let grade = Number(document.getElementById('grade').value);
+      let gradeResult = document.getElementById('gradeResult');
+      if (grade <= 0 || grade > 100) {
+          gradeResult.value = 'error';
+      } else {
+          if (grade >= 90) {
+              gradeResult.value = 'good';
+          } else if (grade >= 80) {
+              gradeResult.value = 'good';
+          } else if (grade >= 70) {
+              gradeResult.value = 'good';
+          } else if (grade >= 60) {
+              gradeResult.value = 'good';
+          } else {
+              gradeResult.value = 'low';
+          }
+      }
+
+  
+  }
+
+  </script>
+</body>
+</html>

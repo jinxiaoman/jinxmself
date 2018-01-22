@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  
+  <script>
+     document.write('<div id="oneBox"></div>');
+     let oBox = document.getElementById('oneBox');
+     oBox.style.width = 100 + 'px';
+     oBox.style.height = 100 + 'px';
+     oBox.innerHTML = '<p>this .is .p</p>';
+// innerText 不解析标签
+// oBox.innerText = '<span>ooo</span>';
+
+  </script>
+</body>
+</html>

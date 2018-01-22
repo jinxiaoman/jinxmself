@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Math.random</title>
+</head>
+<body>
+  <script>
+  document.write('<h4>Math.ramdom</h4>');
+  Math.random();
+  document.write('<br>');
+  document.write(Math.random() * 2);
+  document.write('<br>');
+  for (let i = 0; i < 10; i++) {
+      document.write(Math.random());
+      document.write('<br/>');
+  }
+  document.write('<h4>Math.floor() 保留数字整数部分，舍去小数</h4>');
+  document.write('<h4>产生一个【0，100）的随机整数</h4>');
+  document.write(Math.floor(Math.random() * 100));
+  (function() {
+      let sum = 0;
+      let max = 0;
+      let min = 20;
+      for (let i = 0; i < 5; i++) {
+          let randomNum = Math.floor(Math.random() * 11 + 10);
+          sum += randomNum;
+          max = randomNum > max && randomNum || max;
+          min = randomNum < min && randomNum || min;
+          console.log(`随机数是：${randomNum}，随机数和是：+ ${sum}`);
+      }
+  })();
+  document.write('<br>');
+  for (let i = 1; i <= 5; i++) {
+      for (let j = 1; j <= 5; j++) {
+          document.write(`${j} `);
+      }
+      document.write('<hr>');
+  }
+for (let i = 1; i <= 5; i++) {
+      for (let j = 1; j <= i; j++) {
+          document.write(`${j} `);
+      }
+      document.write('<hr>');
+}
+for (let i = 1; i <= 10; i++) {
+      for (let j = 1; j <= 11 - i; j++) {
+          document.write(`${j}  `);
+      }
+      document.write('<hr>');
+}
+for (let i = 10; i >= 1; i--) {
+      for (let j = 1; j <= i; j++) {
+          document.write(`${j}  `);
+      }
+      document.write('<br>');
+}
+// 9x9
+for (let i = 1; i < 10; i++) {
+      document.write('<br>');
+      for (let j = 1; j <= i; j++) {
+          document.write(`${j}x${i}=${j * i}        `);
+      }
+      document.write('<br>');
+}
+// 循环
+/*
+while (循环条件) {
+  循环体
+}
+如果循环满足条件，就会执行循环体
+
+
+ */
+  let e = 0;
+  while (e < 10) {
+      document.write(e);
+      e++;
+  }
+  console.log(e);
+  while (e < 110) {
+      e++;
+      if (e === 16) {
+          document.write(`sss`);
+      }
+      if (e === 18) break;
+  }
+  let i = 1;
+  while (i < 100) {
+      if (i % 7 === 0) {
+          document.write(`能被7整除的有${i % 7}`);
+      }
+      i++;
+  }
+  </script>
+</body>
+</html>
